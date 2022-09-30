@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Jun Fernando",
+        "account": {
+            "id": "1000-0000-0011",
+            "maskedNumber": "****-****-0011",
+            "currency": "USD",
+            "type": "saving",
+            "bank": {
+                "name": "Banco General",
+                "id": "1"
+            }
+        }
+    },
+    {
+        "id": "2",
+        "name": "María Fernanda Carrillo",
+        "account": {
+            "id": "1000-0000-0042",
+            "maskedNumber": "****-****-0042",
+            "currency": "USD",
+            "type": "saving",
+            "bank": {
+                "name": "Banco General",
+                "id": "1"
+            }
+        }
+    },
+    {
+        "id": "3",
+        "name": "Anabel de la Costa",
+        "account": {
+            "id": "1000-0000-0455",
+            "maskedNumber": "****-****-0455",
+            "currency": "USD",
+            "type": "saving",
+            "bank": {
+                "name": "Banco General",
+                "id": "1"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "name": "Armando del Rosario",
+        "account": {
+            "id": "1000-0000-09-0401",
+            "maskedNumber": "****-****-09-0401",
+            "currency": "USD",
+            "type": "current",
+            "bank": {
+                "name": "Banco General",
+                "id": "1"
+            }
+        }
+    }
+]

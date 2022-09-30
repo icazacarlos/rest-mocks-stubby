@@ -1,0 +1,15 @@
+{
+  "name": "rest-mocks",
+  "version": "1.0.0",
+  "description": "mocks for training BG",
+  "scripts": {
+    "daemon:start": "stubby -l 0.0.0.0 -a 9888 -s 9003 -d ./endpoints.json -w -q",
+    "start": "stubby -l 0.0.0.0 -s 9003 -d ./endpoints.json -w &",
+    "daemon:stop": "kill $(lsof -t -i :9003) & kill $(lsof -t -i :9888)",
+    "stop": "kill $(lsof -t -i :9003)"
+  },
+  "author": "Carlos Velasquez",
+  "dependencies": {
+    "stubby": "^4.1.0"
+  }
+}

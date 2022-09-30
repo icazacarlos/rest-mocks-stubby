@@ -1,0 +1,32 @@
+[
+    {
+        "id": "200-0-003",
+        "maskedNumber": "200-0-003",
+        "currency": "USD",
+        "type": "loan",
+        "balance": {
+            "total": 23000.90,
+            "monthly": 300.01,
+            "owed": 2270.45
+        },
+        "actualFee": 2,
+        "totalFee": 10,
+        "dueDate": "2021-08-03T00:00:00",
+        "itsCaduced": false
+    },
+    {
+        "id": "200-0-004",
+        "maskedNumber": "200-0-004",
+        "currency": "USD",
+        "type": "loan",
+        "balance": {
+            "total": 23000.90,
+            "monthly": 300.01,
+            "owed": 2270.45
+        },
+        "actualFee": 2,
+        "totalFee": 10,
+        "dueDate": "2021-06-03T00:00:00",
+        "itsCaduced": true
+    }
+]

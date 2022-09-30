@@ -1,0 +1,43 @@
+{
+    "id": "200-0-003",
+    "maskedNumber": "200-0-003",
+    "currency": "USD",
+    "type": "loan",
+    "balance": {
+        "total": 23000.90,
+        "monthly": 300.01,
+        "owed": 2270.45
+    },
+    "bank": {
+        "name": "Banco General",
+        "id": "1"
+    },
+    "actualFee": 2,
+    "totalFee": 10,
+    "dueDate": "2021-08-03T00:00:00",
+    "fees": [
+        {
+            "id": "1",
+            "name": "Cuota 1",
+            "balance": {
+                "total": 200.00
+            }
+        },
+        {
+            "id": "2",
+            "name": "Cuota 2",
+            "balance": {
+                "total": 200.00
+            }
+        },
+        {
+            "id": "3",
+            "name": "Cuota 3",
+            "balance": {
+                "total": 200.00
+            }
+        }
+    ],
+    "itsCaduced": false,
+    "openDate": "2015-05-23T00:00:00"
+}

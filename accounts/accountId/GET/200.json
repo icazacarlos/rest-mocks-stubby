@@ -1,0 +1,16 @@
+{
+    "id": "1000-0000-0001",
+    "maskedNumber": "****-****-0001",
+    "currency": "USD",
+    "type": "saving",
+    "balance": {
+        "available": 1000.90,
+        "total": 1000.90
+    },
+    "bank": {
+        "name": "Banco General",
+        "id": "1"
+    },
+    "openDate": "2015-05-23T00:00:00",
+    "hadDebitCard": true
+}
